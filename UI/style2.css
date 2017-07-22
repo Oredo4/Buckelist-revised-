@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+}
+
+img {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a.navbar-right {
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #0E8BC4;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+i{
+    margin-left: 80%;
+    margin-top: 10px;
+}
+
+.navbar-inverse {
+    color: #0E8BC4;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0E8BC4;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: rgba(14, 139, 196, 0.5);
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #0E8BC4;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #0E8BC4;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: rgba(14, 139, 196, 0.5);
+}
