@@ -1,0 +1,60 @@
+
+{% extends "base.html" %}
+
+{% block title %}Bucketlist{% endblock %}
+
+<body>
+    {% block body %}
+
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+
+    <div class="container-fluid">
+
+        <div class="brand"><img src="/static/logo.png"></div>
+
+        <div class="row">
+            <div class="col-md-6" id="phrase">
+                <h1>Enjoy<br>all that<br>life <br>has to offer</h1>
+                <h2>Create a bucketlist today</h2>
+            </div>
+
+            <div class="col-md-6" id="register">
+                <h3>Sign Up</h3>
+
+                <form method="POST" class="pure-form">
+                    <div class="row">
+
+                        <div class="col s12">
+                            <input id="username" placeholder = "Username*" maxlength="30" name="username" required="required" type="text" />
+                        </div>
+
+                        <div class="col s12">
+                            <input id="password1" placeholder = "Password*" name="password1" required="required" type="password" />
+                        </div>
+
+                        <div class="col s12">
+                             <input id="password2" placeholder = "Re-enter Password*" name="password2" required="required" type="password" /> 
+                        </div>
+
+                        <div class="col s12">
+                            <button class="btn btn-large waves-effect waves-dark" type="submit" name="signup"><a style="text-decoration:none; color: white;">Get Started</a></button>
+                        </div>
+
+                    </div>
+                </form>
+
+                <div class="col s12">
+                    <p class="auth-link center-align ">Already have an account? <a href="/signin" id="signin-link" >SIGN IN</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Copyright &copy; Fredo 2017</p>
+        </footer>
+    </div>
+    {% endblock %}
+</body>
+</html>
